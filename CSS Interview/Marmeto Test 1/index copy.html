@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=5" />
+
+  <title>Marmeto | Challenge </title>
+
+  <style>
+    body{
+      background-color: aquamarine;
+    }
+    .container-1 {     
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+      width: 1200px;
+      padding: 20px;
+      margin-left: 120px;
+      justify-content: center;
+      justify-content: space-around;
+    }
+
+    .col-head {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .col-content {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      width: 270px;
+    }
+
+    .container-2 {
+      display: flex;
+      justify-content: space-around;
+      padding: 100px;
+      margin-left: 130px;
+      width: 1000px;
+    }
+
+    .empty {
+      margin-top: 100px;
+      height: 500px;
+    }
+
+    .section-1 {
+      display: flex;
+      width: 200px;
+      height: 650px;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .section-2 {
+
+      display: flex;
+      width: 200px;
+      height: 650px;
+      justify-content: flex-end;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .section-3 {
+      display: flex;
+      width: 200px;
+      height: 650px;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    img {
+      height: 240px;
+      width: 170px;
+      padding: 5px;
+      border-radius: 7%;
+      box-shadow: 7px 7px 10px black, -7px -7px 10px gray;
+    }
+
+    img:hover {
+      transition: 1s;
+      height: 245px;
+      width: 175px;
+    }
+
+    h3 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+   /*  p{
+      writing-mode: vertical-lr;
+    }
+ */
+  </style>
+</head>
+
+<body>
+  
+  <div class="container-1">
+
+    <div class="col-head">
+      <h2>The creative crew</h2>
+    </div>
+    <div class="col-content">
+      <b>WHO WE ARE</b> <br>
+      We are team of creatively diverse. driven.
+      innovative individuals working in various
+      locations from the world.
+    </div>
+  </div>
+
+  <div class="container-2">
+    <div class="section-1">
+      <p id="abc">PRODUCT OWNER</p><img src="./Images/photo1.png" alt="">
+      <h3>Bill Mahoney</h3>
+      <p> UX DESIGNER</p><img src="./Images/photo4.png" alt="">
+      <h3>Skylah Lu</h3>
+    </div>
+
+    <div class="empty">
+      <div class="section-3">
+        <p>ART DIRECTOR</p><img src="./Images/photo2.png" alt="">
+        <h3> Saba Cabrera</h3>
+        <p> DEVELOPER</p><img src="./Images/photo5.png" alt="">
+        <h3> Griff Richards</h3>
+      </div>
+    </div>
+
+    <div class="section-3">
+      <p> TECH LEAD</p><img src="./Images/photo3.png" alt="">
+      <h3> Shae Le</h3>
+      <p>DEVERLOPER</p> <img src="./Images/photo6.png" alt="">
+      <h3>Stan John</h3>
+    </div>
+
+  </div>
+</body>
+
+</html>
