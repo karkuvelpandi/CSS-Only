@@ -1,6 +1,7 @@
 
 *{
    /*  border:3px ; */
+   box-sizing: content-box;
 }
 
 body{
