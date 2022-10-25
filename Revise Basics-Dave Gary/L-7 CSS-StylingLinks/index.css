@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+a:visited{
+    color: blueviolet;
+
+}
+a:hover{
+    color:aqua;
+
+}
+a:active{
+    color: red;
+}
