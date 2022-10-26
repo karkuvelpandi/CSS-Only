@@ -28,3 +28,17 @@ ul{
 li{
     border-top: 2px solid gray;
 }
+li a{
+    display:block;
+}
+li a,
+li a:visited{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+li a:hover ,
+li a:focus{
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+    cursor: pointer;
+}
