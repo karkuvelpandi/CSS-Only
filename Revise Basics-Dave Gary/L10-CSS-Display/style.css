@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body{
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+main{
+    background-color: aquamarine;
+    width:75% ;
+}
+p{
+    background-color:lightgray;   
+    margin: 100px 50px;
+}
