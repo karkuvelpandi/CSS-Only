@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
-
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
 body{
     font-size: 2rem;
     font-family: 'Kanit', sans-serif;
 }
+
+/* Display Block and Inline */
+
 /* main{
     background-color: aquamarine;
     width:75% ;
     
-} */
+}
 p{
     background-color:lightgray;     
 }
@@ -20,4 +27,11 @@ span{
     padding: 50px;
     height: 120px;
     
+} */
+ul{
+    list-style-type: none ;
+    padding-left: 0;
+    text-align: right;
+    background-color: lightgrey;
+    margin: 0;
 }
