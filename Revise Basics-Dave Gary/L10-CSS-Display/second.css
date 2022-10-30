@@ -11,6 +11,13 @@ nav{
     
     background-color: black;
 }
+/* a{
+    display: inline;
+    width: 100px;
+    height: 140px;
+    background-color: aqua;
+    text-align: center;
+} */
 ul{
    
     text-align: right;

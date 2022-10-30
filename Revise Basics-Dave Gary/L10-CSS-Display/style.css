@@ -53,3 +53,9 @@ li a:hover,li a:focus{
     background: wheat;
     color: black;
 }
+img{
+    opacity: 0.9;
+}
+img:hover{
+    opacity: 1 ;
+}
