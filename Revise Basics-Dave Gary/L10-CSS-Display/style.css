@@ -5,7 +5,7 @@
     box-sizing:border-box;
 }
 body{
-    font-size: 2rem;
+    
     font-family: 'Kanit', sans-serif;
 }
 
@@ -29,9 +29,27 @@ span{
     
 } */
 ul{
+
+    font-size: 2rem;
     list-style-type: none ;
     padding-left: 0;
     text-align: right;
-    background-color: lightgrey;
+    background-color: rgb(6, 6, 6);
     margin: 0;
+}
+li{
+    display: inline-block;
+   padding: 0.5rem;
+
+}
+
+li a{
+    display: block;
+    margin: 0;
+    text-decoration: none;
+    color: aliceblue;
+}
+li a:hover,li a:focus{
+    background: wheat;
+    color: black;
 }
