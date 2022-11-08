@@ -4,34 +4,16 @@
     box-sizing: border-box;
 }
 nav{
-   /*  display: flex;
-    justify-content: space-between; */
     background-color: black;
-    color: aliceblue;
-    padding: 1.5rem;
+    /* text-align: right; */
 }
 ul{
-    display: inline-block;
-    list-style-type: none;
-    padding: 1rem;
-    background-color: aqua;
-    text-align: right;
-}
-li {
     display: inline;
-    background-color: yellow;
-}
-
-   
-a {
-    text-decoration: none;
-    color: aliceblue;
-    font-size: large;
-    padding: 1rem;
     
-  
 }
-li a:hover, li a:focus,a:hover{
-      background-color: azure;
-      color: #333;
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;color: aliceblue;
 }
