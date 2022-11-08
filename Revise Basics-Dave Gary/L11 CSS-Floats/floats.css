@@ -1,0 +1,27 @@
+.block{
+    display: flex;
+    width: 150px;
+    height:170px;
+    background-color: black;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+   
+}
+.left{
+    float:left; 
+    margin-right: 1rem;
+}
+.right{
+    float:right; 
+    margin-left: 1rem;
+}
+.clear{
+    clear:both;
+}
+section{
+    background-color: aquamarine;
+   /*  overflow: auto; */
+    display:flow-root; 
+    padding: 1rem;
+}
