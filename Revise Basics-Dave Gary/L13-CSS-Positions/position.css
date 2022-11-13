@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+margin: 0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+.outerContainer{
+    height: 80vh;
+    width: 70vw;
+    margin: 40px auto;
+    border: 2px solid red;
+    position: relative;
+}
+.innerContainer{
+    height: 50vh;
+    width:60vw;
+    margin: 200px auto;
+    border: 2px solid red;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    color:#fff;
+    padding: 1rem;
+   
+}
+.absolute{
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top:0;
+    z-index: 1;
+}
+.relative{
+    position: relative;  /* which means automatically relative to their parent*/
+    background-color:#f00;
+    width: 150px;
+    height:150px;
+    top:120px;
+    left:120px;
+}
+.fixed{
+    width: 150px;
+    height: 150px;
+    background-color:green;
+    position:fixed;
+    top: 40px;
+    left: -10000px;           /*Remember how to disappear text with accessability*/
+}
+.sticky{
+    width: 150px;
+   height:150px;
+   background-color:black;
+   position:sticky;
+   top: 0px;     /*specify the start point is important*/
+}
+
