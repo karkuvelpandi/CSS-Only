@@ -10,3 +10,23 @@ body{
     column-rule: 3px solid #333;
     column-gap: 3rem;
 }
+.column p {
+    margin-top:0;
+}
+.column h2 {
+    margin-top:0;
+    text-align: center;
+    background-color: #333;
+    color: aliceblue;
+    padding: 1rem;
+    break-inside: avoid;
+    /* break-before: column; */
+}
+
+.quote{
+    column-span: all;
+    text-align: center;
+} 
+.nowrap{
+    white-space: nowrap;
+}
