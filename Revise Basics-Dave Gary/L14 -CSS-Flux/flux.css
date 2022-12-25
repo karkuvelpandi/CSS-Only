@@ -15,12 +15,26 @@ body{
     min-height: 400px;
     margin-inline:auto;
     border:1px solid red;
+   display: flex;
+   gap:1rem;
+   flex-wrap:wrap;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
 }
 .box{
-    min-width: 100px;
+    /* min-width: 100px; */
     min-height: 100px;
-    background-color: black;
+    background-color: rgb(14, 11, 216);
     color:white;
     font-size:2rem;
     padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   flex:1 2 100px
+}
+.box:nth-child(1){
+   flex:2 1 100px;
+   order:4;
 }
