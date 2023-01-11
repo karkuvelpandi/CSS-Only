@@ -10,15 +10,54 @@
         width: 25%;
         height:auto;
         display: block;   /*it will remove unneccesary gap from section tag*/
+       border-radius: 50%;
     }
     section{
         border: 1px solid black;
+        background-image: url(../../Images/map.jpg);
+        /* background-repeat: repeat-y; */
+        background-size: cover;
+        /* background-size: contain; */
+        display: flex;
+        align-items: center;
     }
+    .h1{
+        color: white;
+        font-size: 7rem;
+         text-shadow: 5px 5px 10px black;
+    }
+    /* Background image transparancy*/
+.container{
+    background-image: url(../../Images/Orange.jpg);
+    background-position: center center;
+}
+.hero{
+    background-color: hsla(0, 53%, 46%, 0.409);
+}
+.container1{
+    min-height: 50vh;
+    min-width: 100vw;
+    /* background-image: linear-gradient(steelblue,white); */
+    background-image: url(../../Images/bubbles.png),linear-gradient(red, green);
+    background-size: 20% ,auto;
+    background-position: right center;
+    background-repeat: repeat-y, no-repeat;
+}
 </style>
 </head>
 <body>
     <section>
         <img class="profile" src="../../Images/dhoni.jpg"  alt="">
+        <h1 class="h1">Dhoni</h1>
     </section>
+    <!--  Background image transparancy -->
+    <div class="container">
+        <div class="hero h1">
+            Hello Pandi
+        </div>
+    </div>
+    <div class="container1">
+        skjdkfjjksdf
+    </div>
 </body>
 </html>
