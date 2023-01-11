@@ -24,7 +24,7 @@
     .h1{
         color: white;
         font-size: 7rem;
-         text-shadow: 5px 5px 10px black;
+         /* text-shadow: 5px 5px 10px black; */
     }
     /* Background image transparancy*/
 .container{
@@ -43,6 +43,17 @@
     background-position: right center;
     background-repeat: repeat-y, no-repeat;
 }
+/*Background clip on text fill*/
+.clip{
+    /* font-size: 15rem; */
+ background-image: url(../../Images/map.jpg);
+ background-size: 100%;
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: hsla(208, 100%, 97%, 0);
+ background-position: left center;
+ /* background:no-repeat left center url(../../Images/map.jpg); */
+}
 </style>
 </head>
 <body>
@@ -59,5 +70,6 @@
     <div class="container1">
         skjdkfjjksdf
     </div>
+    <h1 class="h1 clip">Hi Background Clip</h1>
 </body>
 </html>
