@@ -54,9 +54,21 @@ nav a:hover, nav a:focus{
 
 main{
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 1.5rem;
 }
+/*Profile card*/
 .card{
     scroll-margin-top: 8rem;
+    width: min(100%,350px);
+    background-color: #ffe4c4;
+    border:2px solid #f00;
+    border-radius: 15px;
+    padding:1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,8 +78,89 @@ main{
     flex-direction: column;
     justify-content: center;
 }
-
-footer{
-    bottom: 0;
+.card img{
+    border:5px double #000;
+    border-radius: 50%;
+}
+.card figcaption{
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bolder;
 }
 
+footer{
+ bottom:0;
+}
+
+/*Small size 576*/
+@media screen and (min-width:576px){
+    main{
+        /* justify-content: center; */
+        flex-flow: row wrap;
+        padding:1rem;
+        justify-content: center;
+    }
+    .card{
+        width: min(100%,400px);
+    }
+    .card:last-child{
+        order:-1
+    }
+}
+
+/*Medium Talet view*/
+@media screen and (min-width:768px){
+    nav{
+        display: none;
+    }
+    .card{
+        width:min(100%,325px)
+    }
+    .card figure {
+    flex-direction: column-reverse;
+    }
+    .card figcaption{
+       /* margin: 0.1rem 0; */
+    }
+    .card p{
+        margin-top:1rem;
+    }
+}
+
+/*Large Size*/
+@media screen and (min-width:992px){
+    .card{
+        width:min(100%,400px)
+    }
+    .card:nth-child(2){
+        order:-1;
+    }
+}
+
+/*Extra large size*/
+@media screen and (min-width:1200px){
+    .card{
+        width: min(calc(33% - 1rem ),500px);
+    }
+}
+
+/*Mobile landscape*/
+@media screen and (max-height:425px) and (min-aspect-ratio:7/4){
+    h1{
+        font-size: 1.5rem;
+    }
+    main{
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+    .card{
+        width:min(calc(33% - 0.25rem),200px)
+    }
+    .card figcaption,.card p{
+        font-size: 1.25rem;
+    }
+    nav{
+        display: none;
+    }
+}
