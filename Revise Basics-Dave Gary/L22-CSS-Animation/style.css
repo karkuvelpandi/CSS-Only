@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+   font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: column nowrap;
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items:center;
+    gap:1rem;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border:2px solid red;
+    color: rgb(0, 0, 0);
+    display: grid;
+    place-content: center;
+}
+
+div:first-child{
+    background-color: dodgerblue; 
+}
+div:nth-child(2){
+    background-color: yellow; 
+}
+div:last-child{
+    background-color: limegreen; 
+}
