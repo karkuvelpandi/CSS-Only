@@ -34,16 +34,27 @@ div:first-child{
     /* transform: translateX(50%); */
     /* transform: rotateX(40deg); */
     /* transform: scaleX(120%); */
+    /* transform: skewX(-10deg); */
 }
 div:nth-child(2){
     background-color: yellow; 
     /* transform: translateY(-50%); */
     /* transform: rotateY(40deg); */
     /* transform: scaleY(120%); */
+    /* transform: skewY(10deg); */
 }
 div:last-child{
     background-color: limegreen; 
     /* transform: translate(50%,-2rem); */
     /* transform: rotateZ(40deg); transform:rotate(40deg); */ 
     /* transform: scale(120%,160%); */
+    /* transform:skew(10deg,-10deg) */
+}
+
+div:hover{
+    background: #000;
+    transition-property:background;
+    transition-duration:2s;
+    transition-delay:0.5s;
+    
 }
