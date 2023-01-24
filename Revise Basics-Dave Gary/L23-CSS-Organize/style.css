@@ -1,0 +1,21 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    font:inherit;
+}
+
+/* Block */
+
+.btn{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #f00;
+    border-radius: 5px;
+    font-size: 2em;
+}
