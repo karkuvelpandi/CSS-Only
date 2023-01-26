@@ -9,13 +9,42 @@
 button{
     font:inherit;
 }
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    /* justify-content: center;
+    align-items: center;
+    gap: 1rem; */
+}
 
 /* Block */
+/*aka components*/
+.header{
+    background-color: blue;
+    color:white;
+    padding:1rem 1rem 0.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
 
-.btn{
+/* ELEMENT */
+/*No stand alone meaning -semantically tied to the block*/ 
+/*does not represent structure ,not .header__nav__btn But like .header__btn*/ 
+.header__btn{
     width: 100px;
     height: 100px;
     border: 2px solid #f00;
     border-radius: 5px;
     font-size: 2em;
+}
+
+/* MODIFIRER */
+/* Incremental style changes *//* Blocks with Modifier */
+.header__btn--secondary{
+    background-color: yellow;
+}
+.header__btn--lean{
+    transform:skewX(-10deg);
 }
