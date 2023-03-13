@@ -513,6 +513,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -591,6 +595,10 @@ video {
   max-width: 28rem;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .scroll-mt-16 {
   scroll-margin-top: 4rem;
 }
@@ -639,6 +647,10 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .rounded-3xl {
@@ -714,6 +726,21 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pl-14 {
   padding-left: 3.5rem;
 }
@@ -748,6 +775,16 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -925,11 +962,6 @@ video {
   opacity: 0.9;
 }
 
-.focus\:outline-none:focus {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-}
-
 .active\:bg-teal-400:active {
   --tw-bg-opacity: 1;
   background-color: rgb(45 212 191 / var(--tw-bg-opacity));
@@ -1023,6 +1055,10 @@ video {
   .md\:flex {
     display: flex;
   }
+
+  .md\:hidden {
+    display: none;
+  }
 }
 
 @media (min-aspect-ratio:3/2) {
@@ -1031,7 +1067,7 @@ video {
   }
 }
 
-@media (min-aspect-ratio:1/2) {
+@media (min-aspect-ratio:13/20) {
   .tallscreen\:section-min-height {
     min-height: calc(100vh - 68px)
   }
